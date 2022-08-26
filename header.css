@@ -2,7 +2,7 @@ header{
     height: 90vh;
     background:url('https://i.ibb.co/vXqDmnh/background.jpg');
     color: #fff;
-    box-shadow: inset 280px 280px 200px rgba(0, 0, 0, 0.8),inset -280px -280px 200px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 250px 270px 300px rgba(0, 0, 0, 0.8),inset -250px -270px 300px rgba(0, 0, 0, 0.8);
    
 }
 .header-top{
@@ -69,19 +69,21 @@ header img{
 
 }
 .header-main h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
+    font-weight: 900;
+
 }
 .header-main h2,
 .header-main .watch-free-button{
     margin-top:30px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     text-transform: uppercase;
     word-spacing: 5px;
 }
 .header-main .watch-free-button   {
     display: inline-block;
-    width: 550px;
+    width: 500px;
     height: 80px;
     padding: 20px 10px;
     background-color: var(--primary-color);
