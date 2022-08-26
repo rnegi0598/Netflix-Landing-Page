@@ -1,0 +1,33 @@
+.footer{
+    background:var(--bg-color);
+    color: var(--s-text-color);
+}
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.footer-container .footer-para{
+    padding-top: 40px;
+    margin-bottom: 20px ;
+}
+.footer-col p{
+    margin: 10px 0;
+}
+.dflex{
+    display:flex;
+    width: 100%;
+    gap:40px;
+}
+
+@media all and (max-width:950px){
+    .footer-box{
+        display:block;
+    }
+    .f-container-one{
+        margin-bottom: 20px;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
