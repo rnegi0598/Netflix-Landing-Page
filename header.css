@@ -16,12 +16,17 @@ header{
     
 }
 .header-top-left{
-  
     width: 60%;
 }
 .header-image{
     width: 200px;
     margin-left:auto;
+}
+@media all and (max-width:950px){
+    .header-image{
+        margin-left:0;
+        
+    }
 }
 header img{
     width: 100%;
