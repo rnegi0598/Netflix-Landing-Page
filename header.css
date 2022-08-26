@@ -1,0 +1,88 @@
+header{
+    height: 90vh;
+    background:url('https://i.ibb.co/vXqDmnh/background.jpg');
+    color: #fff;
+    box-shadow: inset 280px 280px 200px rgba(0, 0, 0, 0.8),inset -280px -280px 200px rgba(0, 0, 0, 0.8);
+   
+}
+.header-top{
+    
+    width: 90%;
+    height: 20%;
+    margin:0 auto;
+    display: flex;
+    padding-top: 20px;
+    /* border: 2px solid black; */
+    
+}
+.header-top-left{
+  
+    width: 60%;
+}
+.header-image{
+    width: 200px;
+    margin-left:auto;
+}
+header img{
+    width: 100%;
+}
+.header-top-right{
+   
+    width:40%;
+}
+.sign-in {
+    
+    text-align: right;
+}
+.sign-in button{
+    border-width: 0;
+    font-weight: 400;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.1rem;
+    width:100px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    
+}
+
+/* header main */
+.header-main{
+    z-index: 3;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    padding:90px 0 ;
+    text-align: center;
+  
+}
+.header-main h1,
+.header-main h2,
+.header-main .watch-free-button{
+    /* text-align: center; */
+
+}
+.header-main h1{
+    font-size: 5rem;
+}
+.header-main h2,
+.header-main .watch-free-button{
+    margin-top:30px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+.header-main .watch-free-button   {
+    display: inline-block;
+    width: 550px;
+    height: 80px;
+    padding: 20px 10px;
+    background-color: var(--primary-color);
+}
+.header-main .watch-free-button  i{
+    padding-left: 20px;
+   
+}
+
