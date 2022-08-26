@@ -1,0 +1,161 @@
+.tab{
+    background: var(--secondary-color);
+    color: var(--s-text-color);
+    padding: 30px;
+
+}
+.tab-container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.tab-item{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.tab-item i{
+    width: 70px;
+    margin: 0 auto;
+}
+.tab-item p{
+    margin-top: 10px;
+}
+@media all and (max-width:950px){
+    .tab-item p{
+        display: none;
+    }
+}
+
+/* tab content */
+.tab-content-container{
+    background: var(--bg-color);
+    color: var(--p-text-color);
+    font-size: 1.5rem;
+}
+.tab-content{
+    width: 70%;
+    margin:0 auto;
+    padding-top:50px ;
+}
+/* tab 1 */
+
+
+#tab-1-content{
+   
+    display: flex;
+    gap: 30px;
+}
+.tab-1-main {
+    width: 100%;
+    padding: 30px 5px;
+}
+.tab-1-main button{
+    margin-top:30px;
+    width:250px;
+    padding: 10px 5px;
+    border-width: 0;
+    background-color: var(--primary-color);
+    color: var(--p-text-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.tab-1-image{
+    width:100%
+}
+.tab-1-image img{
+    width: 100%;
+}
+
+
+
+/* tab 2 */
+.tab-2-header{
+    display: flex;
+    gap: 20px;
+}
+
+.tab-2-button{
+    text-align: right;
+}
+.tab-2-header div button{
+    border-width: 0;
+    background-color: var(--primary-color);
+    color: var(--p-text-color);
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 190px;
+    text-transform: uppercase;
+    
+    
+
+}
+.tab-2-main{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.tab-2-main div {
+    width: 100%;
+}
+.tab-2-main div img{
+    width: 100%;
+}
+.tab-2-main h5{
+    font-size: 1.2rem;
+    margin:20px 0;
+}
+.tab-2-main p{
+    font-size: 1rem;
+    color: var(--s-text-color);
+}
+
+
+/* tab 3 */
+.tab-3-header{
+    text-align: center;
+    font-size: 2rem;
+}
+.tab-3-button{
+    text-align: center;
+    margin: 20px;
+}
+.tab-3-button button{
+    background-color: var(--primary-color);
+    border-width: 0;
+    color: var(--p-text-color);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.tab-3-table{
+    /* border:2px solid blue; */
+    margin-top:20px;
+}
+.tab-3-table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tab-3-table tbody tr{
+    color: var(--s-text-color);
+}
+.tab-3-table table td{
+    padding: 10px 15px;
+}
+.tab-3-table table tr:nth-child(2n){
+    background: var(--secondary-color);
+    
+}
+.tab-3-table thead{
+    font-size: 1.4rem;
+    color: var(--p-text-color);
+    
+}
+.tab-3-table thead tr th{
+    padding: 10px;
+}
+.tab-3-table tbody{
+    font-size:1rem;
+}

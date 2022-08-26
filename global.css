@@ -1,5 +1,9 @@
 :root{
+    --bg-color:#000;
     --primary-color:#e50914;
+    --p-text-color:#fff;
+    --secondary-color:#141414;
+    --s-text-color:#999999;
 }
 *{
     box-sizing: border-box;
