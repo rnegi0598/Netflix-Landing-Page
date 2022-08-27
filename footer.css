@@ -15,7 +15,6 @@
     margin: 10px 0;
 }
 .dflex{
-    /* border: 2px solid blue; */
     display:flex;
     width: 100%;
     gap:40px;
@@ -25,11 +24,14 @@
 }
 
 @media all and (max-width:950px){
+    .footer{
+        font-size:0.9rem;
+    }
     .footer-box{
         display:block;
     }
     .f-container-one{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .footer-col{
         width: 100%;

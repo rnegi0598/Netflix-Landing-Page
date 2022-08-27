@@ -35,6 +35,11 @@
     color: var(--p-text-color);
     font-size: 1.5rem;
 }
+@media all and (max-width:950px){
+    .tab-content-container{
+        font-size: 1rem;
+    }
+}
 .tab-content{
     width: 70%;
     margin:0 auto;
@@ -96,6 +101,12 @@
     gap: 50px;
     margin-top: 50px;
 }
+@media all and (max-width:950px){
+    .tab-2-main{
+        display: block;
+        text-align: center;
+    }
+}
 .tab-2-main div {
     width: 100%;
 }
@@ -117,6 +128,7 @@
     text-align: center;
     font-size: 2rem;
 }
+
 .tab-3-button{
     text-align: center;
     margin: 20px;
@@ -130,7 +142,6 @@
 }
 
 .tab-3-table{
-    /* border:2px solid blue; */
     margin-top:20px;
 }
 .tab-3-table table{
@@ -159,7 +170,20 @@
     font-size:1rem;
 }
 
-
+@media all and (max-width:950px){
+    .tab-3-header{
+        font-size: 1.5rem;
+    }
+    .tab-3-button button{
+        font-size: 1.2rem;
+    }
+    .tab-3-table thead{
+        font-size: 1.2rem;
+    }
+    .tab-3-table tbody{
+        font-size: 0.9rem;
+    }
+}
 
 /*  */
 .border-red{
